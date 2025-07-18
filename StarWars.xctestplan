@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "631E9159-5610-4F63-B9C9-049C5BCA5D4A",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:StarWars.xcodeproj",
+      "identifier" : "A201C4632A7D127D00D96F43",
+      "name" : "StarWars"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:StarWars.xcodeproj",
+        "identifier" : "A201C4792A7D127F00D96F43",
+        "name" : "StarWarsTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:StarWars.xcodeproj",
+        "identifier" : "A201C4832A7D127F00D96F43",
+        "name" : "StarWarsUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
