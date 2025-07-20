@@ -8,7 +8,7 @@
 import Foundation
 
 struct Constants {
-    public static let baseEndPoint = "https://swapi.info"
+    public static let baseEndPoint = "https://swapi.dev"
 }
 
 struct APIPath {
