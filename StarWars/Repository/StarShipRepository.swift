@@ -2,7 +2,7 @@
 //  StarShipRepository.swift
 //  StarWars
 //
-//  Created by Usama Khan on 8/4/23.
+//  Created by Zaid Tayyab on 8/4/23.
 //
 
 import Foundation
@@ -29,6 +29,8 @@ final class StarShipRepository: StarShipRepositoryProtocol {
                     let starships = try self.decoder.decode(StarshipsResponse.self, from: data)
                     completion(.success(starships))
                 } catch {
+                    print("Decoding error: \(error)") // 🔍 Add this
+                        print("Response data: \(String(data: data, encoding: .utf8) ?? "Unable to decode data")")
                     completion(.failure(StarWarsAPIError.decodingFailed))
                     return
                 }

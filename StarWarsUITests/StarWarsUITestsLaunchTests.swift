@@ -2,7 +2,7 @@
 //  StarWarsUITestsLaunchTests.swift
 //  StarWarsUITests
 //
-//  Created by Usama Khan on 8/4/23.
+//  Created by Zaid Tayyab on 8/4/23.
 //
 
 import XCTest

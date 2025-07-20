@@ -2,7 +2,7 @@
 //  Starship.swift
 //  StarWars
 //
-//  Created by Usama Khan on 8/4/23.
+//  Created by Zaid Tayyab on 8/4/23.
 //
 import Foundation
 
@@ -41,3 +41,4 @@ struct StarshipsResponse: Codable, Hashable {
     let previous: URL?
     let results: [Starship]
 }
+
